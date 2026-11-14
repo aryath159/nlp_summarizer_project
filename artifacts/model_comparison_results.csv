@@ -1,0 +1,6 @@
+,ROUGE-1,ROUGE-2,ROUGE-L,BERTScore-F1,Entity-Faithfulness
+1. TextRank (Classical Extractive),0.2449,0.0467,0.1908,0.7713,0.6438
+2. Qwen2.5-3B (Zero-Shot Base),0.2355,0.0502,0.1719,0.8053,0.5992
+"3. Qwen2.5-0.5B (Colab SFT r=8, Attn-only)",0.4172,0.1321,0.324,,
+"4. Qwen2.5-3B (QLoRA SFT r=16, Attn+MLP)",0.4339,0.1459,0.3416,0.867,0.8907
+5. Qwen2.5-3B (QLoRA SFT + DPO Aligned),0.4325,0.1501,0.3399,0.8681,0.9057
